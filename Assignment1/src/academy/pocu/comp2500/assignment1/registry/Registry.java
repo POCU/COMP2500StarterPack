@@ -23,6 +23,7 @@ public class Registry {
     public static final String SUBCOMMENT_ADDER = "SubcommentAdder";
     public static final String COMMENT_UPDATER = "CommentUpdater";
     public static final String REACTION_ADDER = "ReactionAdder";
+    public static final String REACTION_REMOVER = "ReactionRemover";
     public static final String COMMENT_UPVOTER = "CommentUpvoter";
     public static final String COMMENT_DOWNVOTER = "CommentDownvoter";
     public static final String COMMENT_LIST_GETTER = "CommentListGetter";
@@ -31,8 +32,8 @@ public class Registry {
     public static final String SUBCOMMENT_UPVOTER = "SubcommentUpvoter";
     public static final String SUBCOMMENT_DOWNVOTER = "SubcommentDownvoter";
 
-    protected static String ASSIGNMENT1_PACKAGE_NAME = "academy.pocu.comp2500.assignment1";
-    protected static final int TOTAL_INTERFACES_COUNT = 16;
+    public static String ASSIGNMENT1_PACKAGE_NAME = "academy.pocu.comp2500.assignment1";
+    protected static final int TOTAL_INTERFACES_COUNT = 21;
 
     protected HashMap<String, Interface> interfaces = new HashMap<>();
 
@@ -94,6 +95,10 @@ public class Registry {
 
     public final void registerReactionAdder(final String className, final String methodName) {
         this.interfaces.put(REACTION_ADDER, new Interface(className, methodName));
+    }
+
+    public final void registerReactionRemover(final String className, final String methodName) {
+        this.interfaces.put(REACTION_REMOVER, new Interface(className, methodName));
     }
 
     public final void registerCommentUpvoter(final String className, final String methodName) {
