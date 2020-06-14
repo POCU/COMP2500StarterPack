@@ -1,4 +1,4 @@
-package academy.pocu.comp2500.assignment3;
+package academy.pocu.comp2500.assignment3.app;
 
 public class Program {
 
