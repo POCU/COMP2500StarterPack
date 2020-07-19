@@ -1,4 +1,4 @@
-package academy.pocu.comp2500.lab10.pocuplex;
+package academy.pocu.comp2500.lab10.pocuflix;
 
 public final class OkResult extends ResultBase {
     private final Movie movie;
