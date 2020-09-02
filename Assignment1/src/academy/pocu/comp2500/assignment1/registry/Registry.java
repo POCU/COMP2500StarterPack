@@ -27,7 +27,7 @@ public class Registry {
     public static final String COMMENT_UPVOTER = "CommentUpvoter";
     public static final String COMMENT_DOWNVOTER = "CommentDownvoter";
     public static final String COMMENT_LIST_GETTER = "CommentListGetter";
-    public static final String SUBCOMMENT_LIST_GETTER = "SubCommentListGetter";
+    public static final String SUBCOMMENT_LIST_GETTER = "SubcommentListGetter";
     public static final String SUBCOMMENT_UPDATER = "SubcommentUpdater";
     public static final String SUBCOMMENT_UPVOTER = "SubcommentUpvoter";
     public static final String SUBCOMMENT_DOWNVOTER = "SubcommentDownvoter";
@@ -113,7 +113,7 @@ public class Registry {
         this.interfaces.put(COMMENT_LIST_GETTER, new Interface(className, methodName));
     }
 
-    public final void registerSubCommentListGetter(final String className, final String methodName) {
+    public final void registerSubcommentListGetter(final String className, final String methodName) {
         this.interfaces.put(SUBCOMMENT_LIST_GETTER, new Interface(className, methodName));
     }
 
