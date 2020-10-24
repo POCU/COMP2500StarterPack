@@ -243,83 +243,83 @@ public class Registry {
         this.interfaces.put(InterfaceKey.MESH_BANNER_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerLandscapeBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerLandscapeBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.LANDSCAPE_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerLandscapeBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerLandscapeBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.LANDSCAPE_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerPortraitBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerPortraitBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.PORTRAIT_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerPortraitBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerPortraitBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.PORTRAIT_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerIvoryBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerIvoryBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.IVORY_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerIvoryBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerIvoryBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.IVORY_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerGrayBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerGrayBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.GRAY_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerGrayBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerGrayBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.GRAY_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerWhiteBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerWhiteBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.WHITE_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerWhiteBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerWhiteBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.WHITE_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerLaidBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerLaidBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.LAID_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerLaidBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerLaidBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.LAID_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerLinenBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerLinenBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.LINEN_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerLinenBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerLinenBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.LINEN_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerSmoothBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerSmoothBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.SMOOTH_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerSmoothBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerSmoothBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.SMOOTH_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerSingleSidedBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerSingleSidedBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.SINGLE_SIDED_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerSingleSidedBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerSingleSidedBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.SINGLE_SIDED_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerDoubleSidedBusinnessCardTextApertureAdder(final String className, final String methodName) {
+    public void registerDoubleSidedBusinessCardTextApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.DOUBLE_SIDED_BUSINESS_CARD_TEXT_APERTURE_ADDER, new Interface(className, methodName));
     }
 
-    public void registerDoubleSidedBusinnessCardImageApertureAdder(final String className, final String methodName) {
+    public void registerDoubleSidedBusinessCardImageApertureAdder(final String className, final String methodName) {
         this.interfaces.put(InterfaceKey.DOUBLE_SIDED_BUSINESS_CARD_IMAGE_APERTURE_ADDER, new Interface(className, methodName));
     }
 
