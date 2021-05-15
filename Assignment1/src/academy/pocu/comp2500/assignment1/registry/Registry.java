@@ -131,7 +131,6 @@ public class Registry {
                 this.interfaces.size(),
                 TOTAL_INTERFACES_COUNT);
 
-        HashSet<String> visited = new HashSet<>();
         for (Map.Entry<String, Interface> entry : this.interfaces.entrySet()) {
             Interface aInterface = entry.getValue();
             String className = aInterface.getClassName();
