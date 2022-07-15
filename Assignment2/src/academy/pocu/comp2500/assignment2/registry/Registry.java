@@ -10,7 +10,7 @@ import java.util.Map;
  * DO NOT MODIFY. YOU DON'T HAVE TO!
  */
 public class Registry {
-    public static String ASSIGNMENT2_PACKAGE_NAME = "academy.pocu.comp2500.assignment2";
+    public static final String ASSIGNMENT2_PACKAGE_NAME = "academy.pocu.comp2500.assignment2";
     protected static final int TOTAL_INTERFACES_COUNT = 55;
 
     protected HashMap<InterfaceKey, Interface> interfaces = new HashMap<>();
