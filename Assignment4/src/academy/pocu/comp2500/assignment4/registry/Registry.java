@@ -117,6 +117,8 @@ public class Registry {
             return Class.forName(fullClassName);
         } catch (ClassNotFoundException e) {
             return null;
+        } catch (NoClassDefFoundError e) {
+            return null;
         }
     }
 
